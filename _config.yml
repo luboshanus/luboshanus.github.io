@@ -10,7 +10,7 @@ affiliation2_link: https://utia.cas.cz/
 affiliation2_logo: ./assets/img/logo-utia-w.png
 
 email: lubos.hanus (at) fsv.cuni.cz
-email2: hanusl@utia.cas.cz
+email2: hanusl (at) utia.cas.cz
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -51,7 +51,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Mono" # "Serif" or "Sans Serif" or "Mono"
+font: "Sans Serif" # "Serif" or "Sans Serif" or "Mono"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

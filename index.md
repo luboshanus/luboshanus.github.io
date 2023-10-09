@@ -2,7 +2,9 @@
 layout: homepage
 ---
 
-## About Me
+<h1 id="about-me"></h1>
+
+<h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
 I am a Ph.D student in Economics at IES FSV UK at Charles University under the supervision of [Lukáš Vácha](https://www.utia.cas.cz/cs/people/vacha) and [Jozef Baruník](https://barunik.github.io). My research interests are mainly in both macroeconomics and financial time series analysis. Particularly, the interest focuses on estimation methods, dependence of time series in various dimensions, and machine learning.
 

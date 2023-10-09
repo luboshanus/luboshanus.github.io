@@ -1,8 +1,13 @@
 main:
 - title: "Contact"
   url: ./#contact 
-  right: true 
+  right: true
+  
+- title: "Teaching"
+  url: ./#teaching
+
 - title: "Publications"
   url: ./#publications
+
 - title: "Bio"
   url: ./#about-me

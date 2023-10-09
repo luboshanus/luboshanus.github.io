@@ -1,10 +1,10 @@
 /* Add a black background color to the top navigation */
 .topnav {
     /* background-color: #002D72; */
-    background-color: #003399;
+    background-color: #002fa7;
     overflow: hidden;
-	  position:fixed;
-	  z-index:999;
+	position:fixed;
+	z-index:999;
     width:100%;
   }
 
@@ -18,9 +18,9 @@
 }
 
   .topnav img {
-    /* margin-bottom:-16.5pt; */
-    /* margin-top:-12.5pt; */
-    /* margin-left:30%; */
+    margin-bottom:-16.5pt;
+    margin-top:-12.5pt;
+    margin-left:30%;
   }
   
   /* Style the links inside the navigation bar */
@@ -46,7 +46,7 @@
 
   @media print, screen and (max-width: 1000px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:3%;
       }
 
@@ -62,7 +62,7 @@
 
    @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:6%;
       }
     .topnav a.right {
@@ -73,7 +73,7 @@
 
    @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:12%;
       }
     .topnav a.right {
@@ -85,7 +85,7 @@
 
    @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:16%;
       }
     .topnav a.right {
@@ -96,7 +96,7 @@
 
    @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:19%;
       }
     .topnav a.right {
@@ -107,7 +107,7 @@
 
    @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
 
-    .topnav img:first-of-type {
+    .topnav img {
         margin-left:22%;
       }
     .topnav a.right {

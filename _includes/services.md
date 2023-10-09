@@ -17,7 +17,7 @@
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
-<ul style="margin:0 0 20px;">
+<ul style="margin:0 0 10px;">
   <li><a href="#"><autocolor>Empirical Economics</autocolor></a></li>
   <li><a href="#"><autocolor>Journal of Economic Interaction and Coordination</autocolor></a></li>
   <li><a href="#"><autocolor>Open Economic Reviews</autocolor></a></li>

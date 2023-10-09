@@ -1,3 +1,11 @@
+/* KLEIN: #002fa7, k-web:#003399, Martin: #253f8e */
+// original
+$linkColor: #39c; //39c
+$hColor: #043361; //043361
+// lubos
+$linkColor: #003399;
+$hColor: #003399;
+
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -7,7 +15,7 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:$hColor !important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -82,9 +90,10 @@
   background-color:#000}
 
 email {
-    font-size: 14px;
-    font-family: "Ubuntu Mono";
+  font-size: 0.8em;
+  font-family: "Ubuntu Mono", monospace;
 }
+
 
 .icon-button i{
   background:none;
@@ -183,18 +192,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:$hColor;
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#043361;
+  color:$hColor;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:$hColor;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
