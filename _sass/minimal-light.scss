@@ -1,3 +1,12 @@
+// colors Lubos
+/* KLEIN: #002fa7, k-web:#003399, Martin: #253f8e */
+$linkColor: #003399;
+
+// colors original
+// .social-icons a{ color: #043361 !important;}
+// @media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+$linkColor: #043361;
+
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -7,7 +16,7 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color: $linkColor !important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -230,18 +239,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:$linkColor;
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#043361;
+  color:$linkColor;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:$linkColor;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -270,7 +279,8 @@ h1 {
 }
 
 a {
-  color:#39c;
+  // color:#39c;
+  color: $linkColor;
   text-decoration:none;
 }
 

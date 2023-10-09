@@ -1,22 +1,54 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Learning Probability Distributions of Intraday Electricity Prices
+    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
+    # conference_short: MICCAI
+    conference: arXiv preprint arXiv:2310.02867
+    pdf: https://arxiv.org/pdf/2310.02867.pdf
+    code: https://github.com/luboshanus/DistrNNEnergy.jl
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_example_2.png
+    notes: Submitted
+    
+  - title: Learning Probability Distributions in Macroeconomics and Finance
+    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
+    # conference_short: MICCAI
+    conference: arXiv preprint arXiv:2204.06848
+    pdf: https://arxiv.org/pdf/2204.06848pdf
+    # code: https://github.com/luboshanus/
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_example_2.png
+    notes: Submitted
+    
+  - title: Growth cycle synchronization of the Visegrad Four and the European Union
+    authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
+    # conference_short: MICCAI
+    conference: Empirical Economics, 58(4), 1779-1795
+    pdf: https://link.springer.com/article/10.1007/s00181-018-1601-x
+    # code: https://github.com/luboshanus/DistrNNEnergy.jl
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_example_2.png
+    # notes: Submitted
+    
+  - title: Time-frequency response analysis of monetary policy transmission
+    authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
+    # conference_short: MICCAI
+    conference: IES Working Paper, 30/2018
+    # pdf: https://arxiv.org/pdf/2310.02867.pdf
+    # code: https://github.com/luboshanus/DistrNNEnergy.jl
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_example_2.png
+    # notes: Submitted
+    
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   code: https://github.com/MrGiovanni/ContinualLearning
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    
+    
