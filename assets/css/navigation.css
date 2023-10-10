@@ -21,7 +21,8 @@
     /* margin-bottom:-16.5pt;
     margin-top:-12.5pt; */
     padding: 7px 0 2px;
-    margin-left:30%;
+    /* margin-left:30%; */
+    margin: 0 5px;
   }
   
   /* Style the links inside the navigation bar */
@@ -49,7 +50,7 @@
 
   @media print, screen and (max-width: 1000px) { 
 
-    .topnav img {
+    .topnav span.logos {
         margin-left:3%;
       }
 
@@ -65,7 +66,7 @@
 
    @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
 
-    .topnav img {
+    .topnav span.logos {
         margin-left:6%;
       }
     .topnav a.right {
@@ -76,7 +77,7 @@
 
    @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
 
-    .topnav img {
+    .topnav span.logos {
         margin-left:12%;
       }
     .topnav a.right {
@@ -88,18 +89,18 @@
 
    @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
 
-    .topnav img {
-        margin-left:18%;
+    .topnav span.logos {
+        margin-left:17%;
       }
     .topnav a.right {
-        margin-right:18%;
+        margin-right:17%;
       }
 
    }
 
    @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
 
-    .topnav img {
+    .topnav span.logos {
         margin-left:23%;
       }
     .topnav a.right {
@@ -110,7 +111,7 @@
 
    @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
 
-    .topnav img {
+    .topnav span.logos {
         margin-left:25%;
       }
     .topnav a.right {
@@ -119,6 +120,16 @@
 
    }
 
+   @media print, screen and (min-width: 2001px) { 
+
+    .topnav span.logos {
+        margin-left:28%;
+      }
+    .topnav a.right {
+        margin-right:28%;
+      }
+
+   }
   
    @media print, screen and (max-width: 480px) { 
     .topnav #myLinks {

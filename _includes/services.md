@@ -1,8 +1,15 @@
+<!-- <h1 id="services"></h1> -->
+<!-- <h2>Services</h2> -->
+<!-- <h3>Refereeing</h3> -->
 <h1 id="services"></h1>
 
-<h2>Services</h2>
+## Services
 
-<h3>Refereeing</h3>
+### Thesis supervision
+
+- **Ongoing:** Jiří Hájek, Sebastian Černý
+
+### Refereeing
 
 <ul>
   <li>
