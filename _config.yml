@@ -21,7 +21,6 @@ canonical: https://luboshanus.github.io
 
 # The option is used to enable the Institute template.
 enable_institute_logo: true
-# enable_hopkins_logo: true
 
 
 # The option is used to show the last update time.
@@ -38,8 +37,10 @@ github_link: https://github.com/luboshanus
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon.png
+# favicon: ./assets/img/favicon.png
+# favicon_dark: ./assets/img/favicon.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
