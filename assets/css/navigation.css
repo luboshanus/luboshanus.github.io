@@ -1,13 +1,13 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    /* background-color: #002D72; */
+    /* background-color: #002D72; 002fa7 */
     background-color: #002fa7;
     overflow: hidden;
-	position:fixed;
-	z-index:999;
+    position:fixed;
+    z-index:999;
     width:100%;
+    min-height: 35px;
   }
-
 
   .topnav #myLinks {
     display: inline;
@@ -18,19 +18,22 @@
 }
 
   .topnav img {
-    margin-bottom:-16.5pt;
-    margin-top:-12.5pt;
+    /* margin-bottom:-16.5pt;
+    margin-top:-12.5pt; */
+    padding: 7px 0 2px;
     margin-left:30%;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    color: rgb(246, 246, 246);
     text-align: center;
-    padding: 10px 9px;
+    padding: 9px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.1em;
+    /* min-height: 30px; */
   }
   
   /* Change the color of links on hover */
@@ -86,10 +89,10 @@
    @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
 
     .topnav img {
-        margin-left:16%;
+        margin-left:18%;
       }
     .topnav a.right {
-        margin-right:16%;
+        margin-right:18%;
       }
 
    }
@@ -97,10 +100,10 @@
    @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
 
     .topnav img {
-        margin-left:19%;
+        margin-left:23%;
       }
     .topnav a.right {
-        margin-right:19%;
+        margin-right:23%;
       }
 
    }
@@ -108,10 +111,10 @@
    @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
 
     .topnav img {
-        margin-left:22%;
+        margin-left:25%;
       }
     .topnav a.right {
-        margin-right:22%;
+        margin-right:25%;
       }
 
    }
@@ -131,17 +134,17 @@
       .topnav a.normal {
         color: white;
         float: none;
-        padding: 14px 16px;
+        padding: 10px 18px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.1em;
         display: block;
       }
 
       .topnav a.icon {
         color: white;
         display: block;
-        padding: 10px 16px;
-        font-size: 17px;
+        padding: 10px 18px;
+        font-size: 1.1em;
         position: absolute;
         float: right;
         right: 0;
@@ -152,9 +155,9 @@
       .topnav a.right {
         color: white;
         float: none;
-        padding: 14px 16px;
+        padding: 10px 18px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.1em;
         display: block;
         margin-right:0;
       }

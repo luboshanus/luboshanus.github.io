@@ -1,36 +1,26 @@
-<h1 id="invited-talks"></h1>
+<h1 id="conferences"></h1>
 
-<h2 style="margin: 10px 0px 10px;">Invited Talks</h2>
+<h2>Conferences</h2>
 
-
-<h4 style="margin:0 10px 0;">Learning from Imperfect Data: Incremental Learning and Few-shot Learning.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html"><autocolor>Computational Imaging Seminar, Purdue University, August 2023.</autocolor></a></li>
-  <li><a href="https://sites.google.com/view/visionseminar"><autocolor>Vision and Graphics Seminar, Massachusetts Institute of Technology, April 2023.</autocolor></a></li>
-  <li><a href="https://calendars.illinois.edu/detail/2568?eventId=33456212"><autocolor>External Speaker Series, University of Illinois Urbana-Champaign, April 2023.</autocolor></a></li>
-  <li><a href="https://vigr.cs.columbia.edu/vigr_seminar.html"><autocolor>VIGR Seminar, Columbia University, March 2023.</autocolor></a></li>
-  <li><a href="https://ccvl.jhu.edu/"><autocolor>Computational Cognition, Vision, and Learning Lab, Johns Hopkins University, January 2023.</autocolor></a></li>
-  <li><a href="https://www.robots.ox.ac.uk/~vgg/"><autocolor>Visual Geometry Group (VGG), University of Oxford, November 2022.</autocolor></a></li>
-  <li><a href="https://fvl.fudan.edu.cn/"><autocolor>Fudan Vision and Learning Laboratory, Fudan University, September 2022.</autocolor></a></li>
-  <li><a href="https://www.nextcenter.org/"><autocolor>NExT++ Research Center, National University of Singapore, Singapore, April 2022.</autocolor></a></li>
-  <li>Singapore Management University, Singapore, September 2020.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Meta-transfer Learning for Few-shot Learning.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>École Polytechnique Fédérale de Lausann (EPFL), March 2023.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Learning to Self-train for Semi-supervised Few-shot Classification.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>NeurIPS Official Meetups, Beijing, December 2019.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Multi-class Incremental Learning.</h4>
-
-<ul style="margin:0 0 20px;">
-  <li>Nanyang Technological University, Singapore, July 2019.</li>
+<ul>
+  <li>
+    <a href="#"><autocolor>  Statistics of Machine Learning (STATofML), Prague 2019, 2020, 2022, 2023</autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> The 8th annual conference of the Society for Economic Measurement (SEM 2023), Milan, IT </autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 42nd International Symposium on Forecasting (ISF 2022), Oxford, UK</autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> International Workshop on “Financial Markets and Nonlinear Dynamics” (FMND 2022), Paris, FR </autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 15th International Conference on Computational and Financial Econometrics (CFE 2021), London, UK</autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 3nd International Conference on Econometrics and Statistics (EcoSta 2019), Taichung, Taiwan</autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 12th International Conference on Computational and Financial Econometrics, Pisa, IT</autocolor></a></li>
+  <li>
+    <a href="#"><autocolor>  1st (2nd) International Conference on Econometrics and Statistics (EcoSta 2017, 2018), Hong Kong </autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 5th International Symposium in Computational Economics and Finance (ISCEF 2018), Paris, FR </autocolor></a></li>
+  <li>
+    <a href="#"><autocolor> 11th International Conference on Computational and Financial Econometrics (CFE 2017), London, UK</autocolor></a></li>
 </ul>
