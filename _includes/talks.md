@@ -2,9 +2,10 @@
 
 <h2>Conferences</h2>
 
+Selected conferences
 <ul>
   <li>
-    <a href="#"><autocolor>  Statistics of Machine Learning (STATofML), Prague 2019, 2020, 2022, 2023</autocolor></a></li>
+    <a href="#"><autocolor> Statistics of Machine Learning (STATofML), Prague 2019, 2020, 2022, 2023</autocolor></a></li>
   <li>
     <a href="#"><autocolor> The 8th annual conference of the Society for Economic Measurement (SEM 2023), Milan, IT </autocolor></a></li>
   <li>

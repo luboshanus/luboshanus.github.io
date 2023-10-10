@@ -5,9 +5,11 @@
 
 ### Courses
 
-- Lecturer and TA, <a href="#">Financial Econometrics II</a> at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2022-now
-- Teaching Assistant, <a href="#">Quantitative Finance II</a> at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2015-2020
-- Teaching Assistant, <a href="#">Statistics</a> at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2014-2018
+- Lecturer and TA, <a href="http://ies.fsv.cuni.cz/cs/syllab/JEM061">Financial Econometrics II</a> at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2022-now
+- Teaching Assistant (previously)
+  - Quantitative Finance II at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2015-2019
+  - Statistics at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2014-2018
+  - Introductory Statistics at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>, 2015-2019
 
 ### Summer schools
 
