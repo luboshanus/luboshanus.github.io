@@ -12,7 +12,7 @@ main:
     
 wp:
 
-  - title: Learning Probability Distributions of Intraday Electricity Prices
+  - title: Learning Probability Distributions of Day-Ahead Electricity Prices
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: Submitted
     conference: arXiv preprint arXiv:2310.02867, 2023
