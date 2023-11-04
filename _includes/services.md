@@ -11,13 +11,15 @@
 
 ### Refereeing
 
-<ul>
+<ul class="refereeing">
   <li>
-    <a href="#"><autocolor>Empirical Economics</autocolor></a></li>
+    <autocolor>Empirical Economics</autocolor></li>
   <li>
-    <a href="#"><autocolor>Journal of Economic Interaction and Coordination</autocolor></a></li>
+    <autocolor>Journal of Economic Interaction and Coordination</autocolor></li>
   <li>
-    <a href="#"><autocolor>Open Economic Reviews</autocolor></a></li>
+    <autocolor>Open Economic Reviews</autocolor></li>
   <li>
-    <a href="#"><autocolor>Studies in Nonlinear Dynamics &amp; Econometrics</autocolor></a></li>
+    <autocolor>Studies in Nonlinear Dynamics &amp; Econometrics</autocolor></li>
+  <li>
+    <autocolor>Czech Journal of Economics and Finance</autocolor></li>
 </ul>
