@@ -26,7 +26,7 @@ wp:
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: Submitted
     conference: arXiv preprint arXiv:2204.06848, 2022
-    pdf: https://arxiv.org/pdf/2204.06848pdf
+    pdf: https://arxiv.org/pdf/2204.06848.pdf
     # code: https://github.com/luboshanus/
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img-papers/distrnn.png
