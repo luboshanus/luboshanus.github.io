@@ -17,7 +17,7 @@ Selected conferences
   <li>
     <a href="#"><autocolor> 3nd International Conference on Econometrics and Statistics (EcoSta 2019), Taichung, Taiwan</autocolor></a></li>
   <li>
-    <a href="#"><autocolor> 12th International Conference on Computational and Financial Econometrics, Pisa, IT</autocolor></a></li>
+    <a href="#"><autocolor> 12th International Conference on Computational and Financial Econometrics (CFE 2018), Pisa, IT</autocolor></a></li>
   <li>
     <a href="#"><autocolor>  1st (2nd) International Conference on Econometrics and Statistics (EcoSta 2017, 2018), Hong Kong </autocolor></a></li>
   <li>
