@@ -5,7 +5,9 @@
 Selected conferences
 <ul>
   <li>
-    <autocolor> Statistics of Machine Learning (STATofML), Prague 2019, 2020, 2022, 2023</autocolor></li>
+    <autocolor> Financial Econometrics meets Machine Learning (FinEML), Erasmus University Rotterdam, 2023</autocolor></li>
+  <li>
+    <autocolor> Statistics of Machine Learning (STATofML), Prague, 2019, 2020, 2022, 2023</autocolor></li>
   <li>
     <autocolor> The 8th annual conference of the Society for Economic Measurement (SEM 2023), Milan, IT </autocolor></li>
   <li>

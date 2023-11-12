@@ -27,7 +27,8 @@ body {
 // Lubos
 $linkColor: #002fa7;
 $hColor: #002fa7;
-$fontMono: "Ubuntu Mono";
+// $fontMono: "Ubuntu Mono";
+$fontMono: "Fira Mono";
 
 // CSS from theme
 .pub-row { display: flex; align-items: center; }
@@ -55,7 +56,7 @@ $fontMono: "Ubuntu Mono";
 .github span { background-color: #000; }
 
 // email { font-family: "Ubuntu Mono", monospace; font-size: 1em; }
-email { font-family: $fontMono, monospace; font-size: 1em; }
+email { font-family: $fontMono, monospace; font-size: 0.9em; font-weight: 300; }
 
 .icon-button i { background: none; color: white; height: 3.6rem; left: 0; line-height: 3.6rem; position: absolute; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; width: 3.6rem; z-index: 10; }
 
