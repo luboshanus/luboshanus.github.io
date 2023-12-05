@@ -10,5 +10,4 @@
 ### Work in progress
 
 - Persistence of macroeconomic time-series
-- Deep Learning Persistence of Economic Time Series
 - Quantile impulse response functions
