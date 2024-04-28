@@ -7,7 +7,7 @@
 
 ### Thesis supervision
 
-- **Ongoing:** Jiří Hájek, Sebastian Černý
+- **Ongoing:** Sebastian Černý, Jiří Hájek, Sander Belon
 
 ### Refereeing
 

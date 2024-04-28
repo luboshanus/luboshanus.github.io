@@ -5,6 +5,8 @@
 Selected conferences
 <ul>
   <li>
+    <autocolor><b>2024:</b> · (Planning) 44th International Symposium on Forecasting (ISF), Dijon </autocolor></li>
+  <li>
     <autocolor><b>2023:</b> · 8th annual conference of the Society for Economic Measurement (SEM), Milan · Financial Econometrics meets Machine Learning (FinEML) conference, Rotterdam · Statistics of Machine Learning (STATofML), Prague</autocolor></li>
   <li>
     <autocolor><b>2022:</b> · 42nd International Symposium on Forecasting (ISF), Oxford · 6th International Workshop on “Financial Markets and Nonlinear Dynamics” (FMND), Paris</autocolor></li>

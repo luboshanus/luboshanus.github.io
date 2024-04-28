@@ -1,12 +1,13 @@
 # Basic Information 
 title: Luboš Hanus
-position: Ph.D. Student
+position: Lecturer & Researcher
 
 affiliation: Institute of Economic Studies, Charles University
 affiliation_link: https://ies.fsv.cuni.cz/
 affiliation_logo: ./assets/img/logo-ies-w.png
 affiliation2: Institute of Information Theory and Automation, Czech Academy of Sciences
-affiliation2_link: https://www.utia.cas.cz/
+# affiliation2_link: https://www.utia.cas.cz/
+affiliation2_lint: https://www.utia.cas.cz/cs/people/luboshanus
 affiliation2_logo: ./assets/img/logo-utia-w.png
 
 email: lubos.hanus (at) fsv.cuni.cz
@@ -15,13 +16,12 @@ email2: hanusl (at) utia.cas.cz
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: luboš, hanus, luboš hanus, luboshanus, utia, ies, fsv, cuni, uk, czech academy of sciences, charles university
-description: Luboš Hanus is a Ph.D. candidate at Institue of Economic Studies, Charles University, Prague. His research is in macroeconomics, time-series econometrics, and machine-learning.
+description: Luboš Hanus is a lecturer at Institute of Economic Studies, Charles University, Prague, and a researcher at the Institute of Information Theory and Automation at Czech Academy of Sciences. His research is in macroeconomics, time-series econometrics, and machine-learning.
 
 canonical: https://luboshanus.github.io
 
 # The option is used to enable the Institute template.
 enable_institute_logo: true
-
 
 # The option is used to show the last update time.
 enable_last_update: false
