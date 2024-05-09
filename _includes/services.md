@@ -7,7 +7,7 @@
 
 ### Thesis supervision
 
-- **Ongoing:** Sebastian Černý, Jiří Hájek, Sander Belon
+- **Ongoing:** 3 bachelor, 1 master
 
 ### Refereeing
 

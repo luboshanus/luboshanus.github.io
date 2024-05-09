@@ -7,7 +7,7 @@ affiliation_link: https://ies.fsv.cuni.cz/
 affiliation_logo: ./assets/img/logo-ies-w.png
 affiliation2: Institute of Information Theory and Automation, Czech Academy of Sciences
 # affiliation2_link: https://www.utia.cas.cz/
-affiliation2_lint: https://www.utia.cas.cz/cs/people/luboshanus
+affiliation2_link: https://www.utia.cas.cz/cs/people/luboshanus
 affiliation2_logo: ./assets/img/logo-utia-w.png
 
 email: lubos.hanus (at) fsv.cuni.cz
@@ -50,9 +50,10 @@ enable_footnote: true
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: false
 
-# Font
+# Font __ # "Serif" or "Sans Serif" or "Mono"
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Sans Serif" # "Serif" or "Sans Serif" or "Mono"
+font: "Sans Serif" 
+# font: "Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

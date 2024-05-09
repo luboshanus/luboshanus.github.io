@@ -16,7 +16,7 @@ body {
   // font: 16.0px/1.5 Crimson Pro, serif; 
   // color: #595959; 
   color: #333;
-  font-weight: 400;
+  // font-weight: 400; // Already set in Font css
 }
 
 /* KLEIN: #002fa7, k-web:#003399, Martin: #253f8e */
@@ -168,6 +168,11 @@ section { width: 650px; float: right; padding-top: 1.2em; padding-bottom: 20px; 
 small { font-size: 11px; }
 
 hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
+
+ul.refereeing { display: inline-block; margin-bottom: 0; }
+// ul.refereeing li { display: inline-block; }s
+// ul.refereeing li:before { content: " • "; } 
+ul.refereeing li { float: left; margin-right: 30px;}
 
 footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-smoothing: subpixel-antialiased; text-align: center; }
 
