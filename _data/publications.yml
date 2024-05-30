@@ -22,14 +22,14 @@ wp:
     image: ./assets/img-papers/distrnnenergy.png
     # notes: Submitted
     
-  - title: Learning Probability Distributions in Macroeconomics and Finance
+  - title: Taming data-driven probability distributions
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: Revise&Resubmit
-    conference: arXiv preprint arXiv:2204.06848, 2022
-    pdf: https://arxiv.org/pdf/2204.06848.pdf
+    conference: JoF
+    pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4083719
     # code: https://github.com/luboshanus/
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img-papers/distrnn.png
+    image: ./assets/img-papers/assetsdistr.png
     # notes: Submitted
     
   - title: Time-frequency response analysis of monetary policy transmission
