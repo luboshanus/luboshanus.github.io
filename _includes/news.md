@@ -10,8 +10,9 @@
 
 ### News
 
-- **[Mar. 2024]** Defense of doctoral thesis.
-- **[Jan. 2024]** Accepted article in *Finance Research Letters*, Fan-charts in the era of big data.
-- **[Oct. 2023]** Lecturing and TA at Financial Econometrics II, teaching neural networks.
-- **[Sep. 2023]** Article Learning Probabilistic Distributions of Electricity Prices is submitted.
-- **[Jun. 2022]** Our paper on learning macroeconomic fan-charts is available.
+- **[May 2024]** Appointed as a lecturer at IES FSV CUNI.
+- **[Mar 2024]** Defense of doctoral thesis.
+- **[Jan 2024]** Accepted article in *Finance Research Letters*, Fan-charts in the era of big data.
+- **[Oct 2023]** Lecturing and TA at Financial Econometrics II, teaching neural networks.
+- **[Sep 2023]** Article Learning Probabilistic Distributions of Electricity Prices is submitted.
+- **[Jun 2022]** Our paper on learning macroeconomic fan-charts is available.
