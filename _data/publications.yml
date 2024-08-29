@@ -14,8 +14,8 @@ wp:
 
   - title: Learning Probability Distributions of Day-Ahead Electricity Prices
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
-    conference_short: Submitted
-    conference: arXiv preprint arXiv:2310.02867, 2023
+    conference_short: R&R
+    conference: Revise & Resubmit, arXiv preprint arXiv:2310.02867, 2023
     pdf: https://arxiv.org/pdf/2310.02867.pdf
     code: https://github.com/luboshanus/DistrNNEnergy.jl
     # bibtex: https://bib.yliu.me/MICCAI23.txt
@@ -25,12 +25,12 @@ wp:
   - title: Taming data-driven probability distributions
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: R&R
-    conference: Revise&Resubmit
+    conference: Revise & Resubmit
     pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4083719
     # code: https://github.com/luboshanus/
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img-papers/assetsdistr.png
-    # notes: Submitted
+    notes: Submitted
     
   - title: Time-frequency response analysis of monetary policy transmission
     authors: <strong>Luboš Hanus</strong>, Lukáš Vácha

@@ -10,6 +10,7 @@
 
 ### News
 
+- **[Aug 2024]** Shortlisted in the top 3 of the best papers at the 13th INREC 2024 (Uncertainties in Energy - Markets, Systems & Decisions) conference in Essen, Germany.
 - **[May 2024]** Appointed as a lecturer at IES FSV CUNI.
 - **[Mar 2024]** Defense of doctoral thesis.
 - **[Jan 2024]** Accepted article in *Finance Research Letters*, Fan-charts in the era of big data.
