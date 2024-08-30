@@ -5,7 +5,7 @@
 Selected conferences
 <ul>
   <li>
-    <autocolor><b>2024:</b> · 44th International Symposium on Forecasting (ISF), Dijon </autocolor></li>
+    <autocolor><b>2024:</b> · 44th International Symposium on Forecasting (ISF), Dijon · 13th International Ruhr Energy Conference (INREC), Essen </autocolor></li>
   <li>
     <autocolor><b>2023:</b> · 8th annual conference of the Society for Economic Measurement (SEM), Milan · Financial Econometrics meets Machine Learning (FinEML) conference, Rotterdam · Statistics of Machine Learning (STATofML), Prague</autocolor></li>
   <li>
