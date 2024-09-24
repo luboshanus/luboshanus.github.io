@@ -55,9 +55,6 @@ $fontMono: "Fira Mono";
 
 .github span { background-color: #000; }
 
-// email { font-family: "Ubuntu Mono", monospace; font-size: 1em; }
-email { font-family: $fontMono, monospace; font-size: 0.85em; font-weight: 300; }
-
 .icon-button i { background: none; color: white; height: 3.6rem; left: 0; line-height: 3.6rem; position: absolute; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; width: 3.6rem; z-index: 10; }
 
 .icon-button .icon-twitter { color: #4099ff; }
@@ -89,6 +86,9 @@ papertitle { font-weight: 600; font-size: 100%; }
 .image.avatar:before { display: none; }
 
 .image.avatar img { border-radius: 100%; width: 45%; padding: 20px; }
+
+// email { font-family: "Ubuntu Mono", monospace; font-size: 1em; }
+email { font-family: $fontMono, monospace; font-size: 0.85em; font-weight: 300; }
 
 // header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 header a:hover { text-decoration: none !important; }
@@ -173,6 +173,9 @@ ul.refereeing { display: inline-block; margin-bottom: 0; }
 // ul.refereeing li { display: inline-block; }s
 // ul.refereeing li:before { content: " • "; } 
 ul.refereeing li { float: left; margin-right: 30px;}
+
+// talks
+ul li b { font-weight: 500; color: #222; }
 
 footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-smoothing: subpixel-antialiased; text-align: center; }
 
