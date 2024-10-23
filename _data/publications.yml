@@ -6,10 +6,20 @@ main:
     conference: Empirical Economics, 58(4), 1779-1795, 2020
     pdf: https://link.springer.com/article/10.1007/s00181-018-1601-x
     # code: https://github.com/luboshanus/DistrNNEnergy.jl
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # bibtex: https://
     image: ./assets/img-papers/growth-synchro.png
     # notes: Submitted
-    
+
+  - title: Taming data-driven probability distributions
+    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
+    conference_short: J Forec
+    conference: Accepted, Journal of Forecasting (forthcoming)
+    pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4083719
+    # code: https://github.com/luboshanus/
+    # bibtex: https://
+    image: ./assets/img-papers/assets_pap.png
+    # notes: Accepted 
+
 wp:
 
   - title: Learning Probability Distributions of Day-Ahead Electricity Prices
@@ -22,23 +32,14 @@ wp:
     image: ./assets/img-papers/distrnnenergy.png
     # notes: Submitted
     
-  - title: Taming data-driven probability distributions
-    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
-    conference_short: R&R
-    conference: Revise & Resubmit
-    pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4083719
-    # code: https://github.com/luboshanus/
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img-papers/assetsdistr.png
-    notes: Submitted
     
   - title: Time-frequency response analysis of monetary policy transmission
     authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
     conference_short: Pre-print
     conference: IES Working Paper, 30/2018
-    # pdf: https://arxiv.org/pdf/2310.02867.pdf
-    # code: https://github.com/luboshanus/DistrNNEnergy.jl
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # pdf: https://arxiv.org/
+    # code: https://github.com/luboshanus/
+    # bibtex: https://github.com/luboshanus/paper/bib
     image: ./assets/img-papers/tvp-persistence.png
     # notes: Submitted
     
