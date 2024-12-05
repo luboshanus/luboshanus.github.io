@@ -178,7 +178,7 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
+        width: 70%; //45%
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
@@ -429,11 +429,12 @@ footer {
   }
 
 
-   .image.avatar img {
-        border-radius: 100%;
-        width: 117px;
-        padding:20px;
-      }
+  .image.avatar img {
+      border-radius: 100%;
+      width: 117px;
+      padding:20px;
+    }
+    
   #head1o2 {
     visibility: hidden;
   }
