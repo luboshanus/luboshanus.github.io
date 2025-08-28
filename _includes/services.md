@@ -7,7 +7,7 @@
 
 ### Thesis supervision
 
-- **Ongoing:** 3 bachelor, 5 master
+- **Ongoing:** 3 bachelor, 4 master
 
 ### Refereeing
 

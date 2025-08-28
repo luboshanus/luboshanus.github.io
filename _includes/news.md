@@ -10,7 +10,7 @@
 
 ### News
 
-- **[Jan 2024]** Appointed as an assistant professor at IES FSV CUNI.
+- **[Jan 2025]** Appointed as an assistant professor at IES FSV CUNI.
 - **[Nov 2024]** Invited [seminar](https://p.wz.pwr.edu.pl/~weron.rafal/S3) at Wroclaw University of Science and Technology, host R. Weron.
 - **[Aug 2024]** Shortlisted in the top 3 of the best papers at the 13th INREC 2024 (Uncertainties in Energy - Markets, Systems & Decisions) conference in Essen, Germany.
 - **[Mar 2024]** Defense of doctoral thesis.
