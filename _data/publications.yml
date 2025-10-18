@@ -1,15 +1,17 @@
 main:
 
-  - title: Growth cycle synchronization of the Visegrad Four and the European Union
-    authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
-    conference_short: Empir Econ
-    conference: Empirical Economics, 58(4), 1779-1795, 2020
-    pdf: https://link.springer.com/article/10.1007/s00181-018-1601-x
-    # code: https://github.com/luboshanus/DistrNNEnergy.jl
-    # bibtex: https://
-    image: ./assets/img-papers/growth-synchro.png
-    # notes: Submitted
-
+  - title: Learning Probability Distributions of Day-Ahead Electricity Prices
+    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
+    conference_short: Ene Eco
+    conference: Energy Economics, 2025
+    # conference: Revise & Resubmit, arXiv preprint arXiv:2310.02867, 2023
+    # pdf: https://arxiv.org/pdf/2310.02867.pdf
+    pdf: https://www.sciencedirect.com/science/article/pii/S0140988325008187
+    code: https://github.com/luboshanus/DistrNNEnergy.jl
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img-papers/distrnnenergy.png
+    # notes: Accepted
+    
   - title: Taming data-driven probability distributions
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: J Forec
@@ -21,19 +23,19 @@ main:
     image: ./assets/img-papers/assets_pap.png
     # notes: Accepted 
 
+  - title: Growth cycle synchronization of the Visegrad Four and the European Union
+    authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
+    conference_short: Empir Econ
+    conference: Empirical Economics, 58(4), 1779-1795, 2020
+    pdf: https://link.springer.com/article/10.1007/s00181-018-1601-x
+    # code: https://github.com/luboshanus/DistrNNEnergy.jl
+    # bibtex: https://
+    image: ./assets/img-papers/growth-synchro.png
+    # notes: Submitted
+
+    
 wp:
 
-  - title: Learning Probability Distributions of Day-Ahead Electricity Prices
-    authors: Jozef Baruník, <strong>Luboš Hanus</strong>
-    conference_short: R&R
-    conference: Revise & Resubmit, arXiv preprint arXiv:2310.02867, 2023
-    pdf: https://arxiv.org/pdf/2310.02867.pdf
-    code: https://github.com/luboshanus/DistrNNEnergy.jl
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img-papers/distrnnenergy.png
-    # notes: Submitted
-    
-    
   - title: Time-frequency response analysis of monetary policy transmission
     authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
     conference_short: Pre-print
