@@ -7,7 +7,9 @@
 
 - Lecturer at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>
   - <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEM061">Financial Econometrics II</a>, 2022-now
-  - <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEM207">Data Processing in Python</a>, 2024-now
+  - <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEB105">Statistics</a>, 2025-now
+  - <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEB034">Introductory Statistics</a>, 2026-now
+  - Data Processing in Python, 2024-2025
 
 - Teaching Assistant (previously) at <a href="https://ies.fsv.cuni.cz">IES FSV UK</a>
   - Quantitative Finance II, 2015-2019

@@ -7,7 +7,8 @@
 
 ### Thesis supervision
 
-- **Ongoing:** 3 bachelor, 4 master
+- **Ongoing:** 3 bachelor, 5 master
+- Defended: 11
 
 ### Refereeing
 
@@ -22,4 +23,6 @@
     <autocolor>Studies in Nonlinear Dynamics &amp; Econometrics</autocolor></li>
   <li>
     <autocolor>Czech Journal of Economics and Finance</autocolor></li>
+  <li>
+    <autocolor>Grant Agency of Charles University (GAUK)</autocolor></li>
 </ul>
