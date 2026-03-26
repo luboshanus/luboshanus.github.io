@@ -11,7 +11,7 @@
 ### News
 
 - **[Oct 2025]** Accepted article in *Energy Economics*, Learning Probability Distributions of Day-Ahead Electricity Prices.
-- **[Aug 2025]** Participated at the 8th Lindau Nobel Meeting in Economic Sciences. *#LINOecon welcomed around 20 Economics Laureates in Lindau to exchange ideas with the next generation of leading Young Scientists from all over the world.*
+- **[Aug 2025]** Participated at the [8th Lindau Nobel Meeting in Economic Sciences](https://www.mediatheque.lindau-nobel.org/meetings/2025-econ). *#LINOecon welcomed around 20 Economics Laureates in Lindau to exchange ideas with the next generation of leading Young Scientists from all over the world.*
 - **[Jan 2025]** Appointed as an assistant professor at IES FSV CUNI.
 - **[Nov 2024]** Invited [seminar](https://p.wz.pwr.edu.pl/~weron.rafal/S3) at Wroclaw University of Science and Technology, host R. Weron.
 - **[Oct 2024]** Accepted article in *Journal of Forecasting*, Taming data-driven probability distributions.
