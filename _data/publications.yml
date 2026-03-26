@@ -15,14 +15,14 @@ main:
   - title: Taming data-driven probability distributions
     authors: Jozef Baruník, <strong>Luboš Hanus</strong>
     conference_short: J Forec
-    conference: Journal of Forecasting, 2024
+    conference: Journal of Forecasting, 2025
     # pdf: https://onlinelibrary.wiley.com/doi/10.1002/for.3208
     pdf: https://onlinelibrary.wiley.com/doi/full/10.1002/for.3208
     # code: https://github.com/luboshanus/
     # bibtex: https://
     image: ./assets/img-papers/assets_pap.png
     # notes: Accepted 
-
+  
   - title: Growth cycle synchronization of the Visegrad Four and the European Union
     authors: <strong>Luboš Hanus</strong>, Lukáš Vácha
     conference_short: Empir Econ
