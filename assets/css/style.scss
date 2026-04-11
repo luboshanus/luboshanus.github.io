@@ -2,3 +2,142 @@
 ---
 
 @import "minimal-light";
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-title-spaced,
+.post-content h1:first-child {
+  margin-top: 30px;
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+}
+
+.post-list-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.post-meta {
+  color: #666;
+  display: block;
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.post-content pre,
+.post-content code {
+  font-family: "Roboto Mono", "Source Code Pro", "Fira Mono", monospace;
+  font-size: 0.84rem;
+}
+
+.post-content :not(pre) > code {
+  background: #f3f6fb;
+  border: 1px solid #dbe4f0;
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+}
+
+.post-content .highlighter-rouge,
+.post-content div.highlight {
+  margin: 1rem 0 1.5rem;
+}
+
+.post-content .highlight pre,
+.post-content pre.highlight {
+  background: #f7f9fc;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  padding: 0.9rem 1rem;
+  tab-size: 2;
+}
+
+.post-content .highlight code,
+.post-content pre code {
+  background: transparent;
+  border: 0;
+  color: #1f2933;
+  padding: 0;
+}
+
+.post-content img {
+  display: block;
+  height: auto;
+  margin: 1.5rem auto;
+  max-width: 100%;
+}
+
+.post-content .highlight .c,
+.post-content .highlight .c1,
+.post-content .highlight .cm,
+.post-content .highlight .cp,
+.post-content .highlight .cs {
+  color: #829ab1;
+  font-style: italic;
+}
+
+.post-content .highlight .k,
+.post-content .highlight .kc,
+.post-content .highlight .kd,
+.post-content .highlight .kn,
+.post-content .highlight .kp,
+.post-content .highlight .kr,
+.post-content .highlight .kt,
+.post-content .highlight .ow {
+  color: #7c3aed;
+  font-weight: 500;
+}
+
+.post-content .highlight .nf,
+.post-content .highlight .fm,
+.post-content .highlight .nc,
+.post-content .highlight .nn {
+  color: #0f766e;
+}
+
+.post-content .highlight .n,
+.post-content .highlight .nb,
+.post-content .highlight .bp,
+.post-content .highlight .nv,
+.post-content .highlight .vc,
+.post-content .highlight .vg,
+.post-content .highlight .vi {
+  color: #243b53;
+}
+
+.post-content .highlight .s,
+.post-content .highlight .sa,
+.post-content .highlight .sb,
+.post-content .highlight .sc,
+.post-content .highlight .sd,
+.post-content .highlight .s1,
+.post-content .highlight .s2,
+.post-content .highlight .sh,
+.post-content .highlight .si,
+.post-content .highlight .sx,
+.post-content .highlight .sr,
+.post-content .highlight .ss,
+.post-content .highlight .dl {
+  color: #b45309;
+}
+
+.post-content .highlight .m,
+.post-content .highlight .mb,
+.post-content .highlight .mf,
+.post-content .highlight .mh,
+.post-content .highlight .mi,
+.post-content .highlight .il,
+.post-content .highlight .mo {
+  color: #c2410c;
+}
+
+.post-content .highlight .o,
+.post-content .highlight .p {
+  color: #486581;
+}
