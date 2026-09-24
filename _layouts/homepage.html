@@ -62,35 +62,52 @@
    </script>
 
    <script>
-      function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-      }
+      // Mobile navigation toggle. State lives in a class so CSS owns the
+      // breakpoint; aria-expanded is kept in sync for screen readers.
+      document.addEventListener("DOMContentLoaded", function () {
+        var btn = document.querySelector(".nav-toggle");
+        var links = document.getElementById("nav-links");
+        if (!btn || !links) { return; }
+
+        btn.addEventListener("click", function () {
+          var open = links.classList.toggle("is-open");
+          btn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+
+        links.addEventListener("click", function (event) {
+          if (event.target.closest("a")) {
+            links.classList.remove("is-open");
+            btn.setAttribute("aria-expanded", "false");
+          }
+        });
+      });
    </script>
    
   </head>
   <body>
     
-    <div class="topnav">
-      
-      <span class="logos">
-      <a href="{{ site.affiliation_link }}"><img width="60px" src="{{ site.affiliation_logo | relative_url }}"></a>
-      <a href="{{ site.affiliation2_link }}"><img width="60px" src="{{ site.affiliation2_logo | relative_url }}"></a>
-      </span>
+    <nav class="topnav" aria-label="Main">
+      <div class="topnav__inner">
 
-      <div id="myLinks">
-      {% include navigation.md %}
+        <span class="logos">
+          <a href="{{ site.affiliation_link }}" rel="noopener" aria-label="{{ site.affiliation }}">
+            <img src="{{ site.affiliation_logo | relative_url }}" width="60" height="26" alt="{{ site.affiliation }}">
+          </a>
+          <a href="{{ site.affiliation2_link }}" rel="noopener" aria-label="{{ site.affiliation2 }}">
+            <img src="{{ site.affiliation2_logo | relative_url }}" width="60" height="26" alt="{{ site.affiliation2 }}">
+          </a>
+        </span>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div id="nav-links" class="nav-links">
+          {% include navigation.md %}
+        </div>
+
       </div>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-      
-    </div>
+    </nav>
     
 
     <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url }}"></script>
@@ -130,7 +147,7 @@
         <br>
         {% endif %}
         {% if site.affiliation2 %}
-        <a href="{{ site.affiliation_link2 }}" rel="noopener"><autocolor>{{ site.affiliation2 }}</autocolor></a>
+        <a href="{{ site.affiliation2_link }}" rel="noopener"><autocolor>{{ site.affiliation2 }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}

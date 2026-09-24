@@ -1,178 +1,174 @@
-/* Add a black background color to the top navigation */
+/* =============================================================================
+   Top navigation bar
+   -----------------------------------------------------------------------------
+   Self-contained: no dependency on the theme's SCSS variables, so this file can
+   be dropped into another site as-is.
+
+   The inner container is width-matched to .wrapper (960px), so the logos sit
+   flush with the left edge of the sidebar and the links with the right edge of
+   the content column — at every viewport width, with no per-breakpoint
+   percentage nudging.
+   ========================================================================== */
+
 .topnav {
-    /* background-color: #002D72; 002fa7 */
-    background-color: #002fa7;
-    overflow: hidden;
-    position:fixed;
-    z-index:999;
-    width:100%;
-    min-height: 35px;
-    /*    font-family: 'Roboto', sans-serif;*/
-  }
-
-  .topnav #myLinks {
-    display: inline;
-  }
-
-.topnav a.icon {
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  min-height: 44px;
+  background-color: #002fa7; /* KLEIN: #002fa7, k-web: #003399 */
+  overflow: hidden;
 }
 
-  .topnav img {
-    /* margin-bottom:-16.5pt;
-    margin-top:-12.5pt; */
-    padding: 7px 0 2px;
-    /* margin-left:30%; */
-    margin: 0 5px;
+.topnav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  /* Content box resolves to exactly 960px, aligned with .wrapper. */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc(960px + 2 * 1.25rem);
+  min-height: 44px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* --- Institute logos ------------------------------------------------------ */
+
+.topnav .logos {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.topnav .logos a {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.topnav .logos img {
+  display: block;
+  width: 60px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  opacity: 0.92;
+  transition: opacity 120ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.topnav .logos a:hover img {
+  opacity: 1;
+}
+
+/* --- Links ---------------------------------------------------------------- */
+
+/* row-reverse keeps the original visual order (Bio … Contact) while letting
+   _data/navigation.yml stay in its existing right-to-left order. */
+.topnav .nav-links {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.25rem;
+  /* Pull the last link's padding back so its text sits flush with the content
+     column's right edge, matching the logos on the left. */
+  margin-right: -0.75rem;
+}
+
+.topnav a.normal,
+.topnav a.right {
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  color: rgb(246, 246, 246);
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 120ms cubic-bezier(0.2, 0, 0.2, 1),
+    color 120ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.topnav a.normal:hover,
+.topnav a.right:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  text-decoration: none;
+}
+
+.topnav a:focus-visible,
+.topnav button:focus-visible {
+  outline: 2px solid #ffb81c;
+  outline-offset: 2px;
+}
+
+/* --- Hamburger ------------------------------------------------------------ */
+
+.topnav .nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: background-color 120ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.topnav .nav-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+/* --- Small screens: collapse into a dropdown panel ------------------------ */
+
+@media print, screen and (max-width: 960px) {
+  .topnav {
+    overflow: visible;
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a.normal {
-    float: right;
-    /* color: #f2f2f2; */
-    color: rgb(246, 246, 246);
-    text-align: center;
-    padding: 9px 10px;
-    text-decoration: none;
-    font-size: 1.1em;
-    /* min-height: 30px; */
+
+  .topnav__inner {
+    flex-wrap: wrap;
   }
-  
-  /* Change the color of links on hover */
-  .topnav a.normal:hover {
-    background-color: #eee;
-    color: #333;
+
+  .topnav .nav-toggle {
+    display: inline-flex;
   }
-  
-  /* Add a color to the active/current link */
+
+  .topnav .nav-links {
+    display: none;
+    order: 3;
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .topnav .nav-links.is-open {
+    display: flex;
+  }
+
+  .topnav a.normal,
   .topnav a.right {
-    margin-right:30%;
+    display: block;
+    padding: 0.75rem;
+    border-radius: 0;
+    text-align: left;
   }
+}
 
-  @media print, screen and (max-width: 1000px) { 
-
-    .topnav span.logos {
-        margin-left:3%;
-      }
-
-    .topnav a.right {
-        margin-right:3%;
-      }
-
-    .topnav a.normal {
-        padding: 10px 5px;
-    }
-
-   }
-
-   @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
-
-    .topnav span.logos {
-        margin-left:6%;
-      }
-    .topnav a.right {
-        margin-right:6%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
-
-    .topnav span.logos {
-        margin-left:12%;
-      }
-    .topnav a.right {
-        margin-right:12%;
-      }
-
-      }
-
-
-   @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
-
-    .topnav span.logos {
-        margin-left:17%;
-      }
-    .topnav a.right {
-        margin-right:17%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
-
-    .topnav span.logos {
-        margin-left:23%;
-      }
-    .topnav a.right {
-        margin-right:23%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
-
-    .topnav span.logos {
-        margin-left:25%;
-      }
-    .topnav a.right {
-        margin-right:25%;
-      }
-
-   }
-
-   @media print, screen and (min-width: 2001px) { 
-
-    .topnav span.logos {
-        margin-left:28%;
-      }
-    .topnav a.right {
-        margin-right:28%;
-      }
-
-   }
-  
-   @media print, screen and (max-width: 480px) { 
-    .topnav #myLinks {
-        display: none;
-      }
-   }
-
-   @media print, screen and (max-width: 960px) { 
-    .topnav #myLinks {
-        display: none;
-      }
-
-      .topnav a.normal {
-        color: white;
-        float: none;
-        padding: 10px 18px;
-        text-decoration: none;
-        font-size: 1.1em;
-        display: block;
-      }
-
-      .topnav a.icon {
-        color: white;
-        display: block;
-        padding: 10px 18px;
-        font-size: 1.1em;
-        position: absolute;
-        float: right;
-        right: 0;
-        top: 0;
-        margin-right:5%;
-      }
-
-      .topnav a.right {
-        color: white;
-        float: none;
-        padding: 10px 18px;
-        text-decoration: none;
-        font-size: 1.1em;
-        display: block;
-        margin-right:0;
-      }
-   }
-   
-
+@media print {
+  .topnav {
+    display: none;
+  }
+}

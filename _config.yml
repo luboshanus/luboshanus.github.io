@@ -1,6 +1,6 @@
 # Basic Information 
 title: Luboš Hanus
-position: Lecturer & Researcher
+position: Assistant Professor & Researcher
 
 affiliation: Institute of Economic Studies, Charles University
 affiliation_link: https://ies.fsv.cuni.cz/
@@ -84,3 +84,9 @@ exclude:
   - LICENSE
   - CNAME
   - minimal-light.gemspec
+  - notes.note
+  - STYLE-NOTES.md
+  # "Random Posts" subpage disabled. To restore: drop the next two lines,
+  # bring back posts/index.md and the nav entry in _data/navigation.yml.
+  - _posts
+  - _layouts/post.html
