@@ -1,14 +1,14 @@
 # Basic Information 
 title: Luboš Hanus
-position: Assistant Professor & Researcher
+position: Lecturer & Researcher
 
 affiliation: Institute of Economic Studies, Charles University
 affiliation_link: https://ies.fsv.cuni.cz/
-affiliation_logo: /assets/img/logo-ies-w.png
+affiliation_logo: ./assets/img/logo-ies-w.png
 affiliation2: Institute of Information Theory and Automation, Czech Academy of Sciences
 # affiliation2_link: https://www.utia.cas.cz/
 affiliation2_link: https://www.utia.cas.cz/cs/people/luboshanus
-affiliation2_logo: /assets/img/logo-utia-w.png
+affiliation2_logo: ./assets/img/logo-utia-w.png
 
 email: lubos.hanus (at) fsv.cuni.cz
 email2: hanusl (at) utia.cas.cz
@@ -29,7 +29,7 @@ enable_last_update: false
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.cz/citations?user=VTv49SkAAAAJ&hl=en
-cv_link: /assets/files/cv_hanus_lubos.pdf
+cv_link: assets/files/cv_hanus_lubos.pdf
 github_link: https://github.com/luboshanus
 orcid_link: https://orcid.org/0000-0002-8234-2164
 
@@ -38,11 +38,11 @@ orcid_link: https://orcid.org/0000-0002-8234-2164
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: /assets/img/avatar.png
+avatar: ./assets/img/avatar.png
 # favicon: ./assets/img/favicon.png
 # favicon_dark: ./assets/img/favicon.png
-favicon: /assets/img/favicon.ico
-favicon_dark: /assets/img/favicon.ico
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -65,17 +65,6 @@ font: "Sans Serif"
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 # remote_theme: yaoyao-liu/minimal-light
 
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
@@ -84,9 +73,3 @@ exclude:
   - LICENSE
   - CNAME
   - minimal-light.gemspec
-  - notes.note
-  - STYLE-NOTES.md
-  # "Random Posts" subpage disabled. To restore: drop the next two lines,
-  # bring back posts/index.md and the nav entry in _data/navigation.yml.
-  - _posts
-  - _layouts/post.html
